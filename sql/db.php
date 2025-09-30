@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username   = "treddy";     // your MariaDB username
-$password   = "";           // password (empty if none)
+$username   = "treddy";     
+$password   = "";           
 $dbname     = "my_first_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
